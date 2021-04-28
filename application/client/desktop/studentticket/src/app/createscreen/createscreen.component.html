@@ -1,0 +1,21 @@
+<h2 class="screen-align">Createscreen</h2>
+<form id="template-iqy2" class="form">
+    <div id="template-ie0a" class="form-group">
+        <label id="template-iuqj" class="label">Name</label>
+        <input placeholder="Type here your name" id="template-i5ds"
+        required="true" [(ngModel)]="studentinfo.name" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-i308" class="form-group">
+        <label id="template-ipbk" class="label">Email</label>
+        <input type="email" placeholder="Type here your email" id="template-izau"
+        required="true" [(ngModel)]="studentinfo.stud_email" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-i69rr" class="form-group">
+        <label id="template-i1cpw" class="label">Message</label>
+    </div>
+    <div id="template-irpga" class="form-group">
+        <button type="submit" id="template-inffm" (click)="GpCreate()" class="button btn btn-primary">create</button>
+    </div>
+</form>

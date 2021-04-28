@@ -1,0 +1,21 @@
+<h2 class="screen-align">Deletescreen</h2>
+<form id="template-idf7" class="form">
+    <div id="template-ii0v" class="form-group">
+        <label id="template-ilpe" class="label">Name</label>
+        <input placeholder="Type here your name" id="template-iy4i"
+        required="true" [(ngModel)]="studentinfo.name" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-ino8" class="form-group">
+        <label id="template-iksl" class="label">Email</label>
+        <input type="email" placeholder="Type here your email" id="template-iofi"
+        required="true" [(ngModel)]="studentinfo.stud_email" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-iw9r1" class="form-group">
+        <label id="template-i1o0a" class="label">Message</label>
+    </div>
+    <div id="template-icliv" class="form-group">
+        <button type="submit" id="template-i2h0h" (click)="GpDelete()" class="button btn btn-primary">Delete</button>
+    </div>
+</form>

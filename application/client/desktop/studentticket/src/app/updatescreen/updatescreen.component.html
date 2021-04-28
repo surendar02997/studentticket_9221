@@ -1,0 +1,21 @@
+<h2 class="screen-align">Updatescreen</h2>
+<form id="template-iusp" class="form">
+    <div id="template-i3bk" class="form-group">
+        <label id="template-ic7d" class="label">Name</label>
+        <input placeholder="Type here your name" id="template-ik5w"
+        required="true" [(ngModel)]="studentinfo.name" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-icwg" class="form-group">
+        <label id="template-isdt" class="label">Email</label>
+        <input type="email" placeholder="Type here your email" id="template-ilje"
+        required="true" [(ngModel)]="studentinfo.stud_email" [ngModelOptions]="{standalone: true}"
+        class="input form-control" />
+    </div>
+    <div id="template-i3ujh" class="form-group">
+        <label id="template-i00is" class="label">Message</label>
+    </div>
+    <div id="template-i6n26" class="form-group">
+        <button type="submit" id="template-iwi05" (click)="GpUpdate()" class="button btn btn-primary">Update</button>
+    </div>
+</form>
