@@ -22,10 +22,12 @@ export class DeletescreenComponent implements OnInit {
     }
     GpDelete() {
         this.deletescreenService.GpDelete(this.queryId).subscribe(data => {
-            this.GpGetNounById();
+         // this.GpGetNounById();
+          //this.GpDelete();
         },
         error => {
             console.log('Error', error);
         });
     }
+    
 }

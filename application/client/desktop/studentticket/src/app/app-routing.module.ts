@@ -11,10 +11,14 @@ import { UserComponent } from './user/user.component';
 import { ProfilesettingsComponent } from './user/profilesettings/profilesettings.component';
 import { TemplateComponent } from './template/template.component';
 import { AdminComponent } from './admin/admin.component';
+import { GrapesjsComponent } from './grapesjs/grapesjs.component';
 
 const routes: Routes = [
     { path: 'login', component: LoginComponent },
 { path: 'signup', component: SignupComponent },
+
+{ path: 'grapesjs', component: GrapesjsComponent },
+
 { path: 'home', component: HomeComponent, canActivate: [AuthGuard] },
 { path: 'authorization', component: AuthorizationComponent, canActivate: [AuthGuard] },
 { path: 'manageroles', component: ManagerolesComponent, canActivate: [AuthGuard] },

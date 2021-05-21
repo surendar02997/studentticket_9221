@@ -18,10 +18,12 @@ import { FooterModule } from './footer/footer.module';
 import { TemplateModule } from './template/template.module';
 import { SharedService } from '../shared/shared.service';
 import { AdminModule } from './admin/admin.module';
+import { GrapesjsComponent } from './grapesjs/grapesjs.component';
 
 @NgModule({
   declarations: [
-        AppComponent
+        AppComponent,
+        GrapesjsComponent
 ],
   imports: [
   FormsModule,
